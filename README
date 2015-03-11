@@ -1,0 +1,57 @@
+useage: 
+
+1.single linux computer: sh myjob.sh
+2.cluster:  qsub myjob.sh
+remember to change myjob.sh to your enviremont
+
+
+PhyConst.h:
+Include some physical consts and a data structure of hydro settings.
+
+Vishydro1.inp: 
+Include input parameters
+
+CMatrix.h : 
+Define 1, 2, 3 dimensional matrix whose index can go from -N through N. 
+
+ran2.h, ran2.cpp: 
+Random number generator copied from Numeric recipes in c.
+
+Int.h, Int.cpp: 
+Gaussian integral subprograms and Gaussian nodes and weight.
+
+CAAcollision.h, CAAcollision.cpp: 
+Implement the Glauber initial condition.
+
+CEos.h, CEos.cpp: 
+Define the Equation Of State class, include EOSI, SMEOSQ, EOSL, EOSL2(s95p-v1)
+
+Algorithm.h, Algorithm.cpp: 
+Include SHASTA transport algorithm, and time spliting method to solve the 3+1D hydrodynamics.
+
+CCube.h, CCube.cpp:
+Using interpolation method to calculate the freeze out hyper surface in 3+1D hydrodynamics. 
+
+CHydro.h, CHydro.cpp: 
+Implement the hydro evolution of the heavy ion collisions. They are the most important files that combine the initial condition, EOS, hydro evolution and freeze out together. 
+
+main.cpp:
+Creat one hydro event, do hydro evolution.
+
+Reso3D:
+Extend AZHYDRO's resonance decay program to 3+1D case.
+
+SpectraV2/:
+Isolate the spectra and v2 calculation to this directory.
+calc_spec_before_reso and calc_spec_after_reso are seperated.
+
+s95p-v1: 
+Store the parameterized EOSL and particle data table.
+
+Makefile:
+using "make hydro" to compile the program.
+
+myjob.sh, submitpbs.sh:
+submit job on the super computer.
+
+
