@@ -1,0 +1,128 @@
+
+reso.h,454
+#define	NUMDECAY	4,135
+#define	NUMPARTICLE	5,203
+#define MAXINTV 6,277
+#define MHALF 7,350
+#define NRY 8,386
+#define NPT	9,446
+#define NPHI	10,512
+#define NPHI1	11,577
+#define	PI	12,602
+#define ALPHA 13,654
+#define HBARC	14,734
+#define	HBARC3	15,805
+#define FILEDIM 16,842
+struct par 19,925
+	} particle[particle41,1615
+double  PHI[PHI43,1642
+double  RY[RY44,1692
+struct de 47,1786
+	}  decay[decay52,2037
+int	partid[partid56,2146
+
+tools.h,19
+#define SSL 4,105
+
+decay.c,390
+#define	PTS3	16,276
+#define	PTS4	17,329
+#define	PTN1	19,382
+#define	PTN2	20,397
+typedef struct pblockN22,449
+} pblockN;31,750
+typedef struct nblock34,763
+} nblock;37,808
+norm3int 63,1762
+double dnpir2N 74,2060
+double dnpir1N 153,4263
+double dn2ptN 165,4622
+dn3ptN 177,5001
+Edndp3_2bodyN 198,5749
+Edndp3_3bodyN 238,6973
+void add_reso 282,8063
+void cal_reso_decays 467,12911
+
+functions.c,559
+#define         PTCHANGE 17,397
+static	double	gaus2x[gaus2x25,719
+static	double	gaus4x[gaus4x26,768
+static	double	gaus8x[gaus8x27,826
+static	double	gaus10x[gaus10x29,917
+static	double	gaus12x[gaus12x32,1029
+static	double	gaus16x[gaus16x35,1154
+static	double	gaus20x[gaus20x40,1349
+static	double	gaus48x[gaus48x46,1585
+gala4x[gala4x61,2269
+gala8x[gala8x65,2371
+gala12x[gala12x70,2545
+gala15x[gala15x78,2795
+gala48x[gala48x88,3189
+void   readin(126,4770
+void   readspec(236,9118
+void   writespec(411,14964
+double	Edndp3(481,16477
+
+int.c,1493
+main(18,312
+int	matherr(22,338
+testgauss(26,403
+testgala(38,952
+testgahe(46,1292
+testgauche(54,1612
+double	testgalafunc(65,2113
+double testfunc(71,2188
+gala4x[gala4x86,2527
+gala4w[gala4w89,2624
+gala8x[gala8x92,2718
+gala8w[gala8w97,2887
+gala12x[gala12x102,3047
+gala12w[gala12w109,3288
+gala15x[gala15x117,3517
+gala15w[gala15w126,3900
+static	double	gahep4[gahep4141,4468
+static	double	gahew4[gahew4142,4536
+static	double	gahep8[gahep8143,4600
+static	double	gahew8[gahew8145,4710
+static	double	gahep16[gahep16147,4812
+static	double	gahew16[gahew16151,4998
+static	double	gahep20[gahep20155,5176
+static	double	gahew20[gahew20160,5427
+static	double	gaulep4[gaulep4174,5915
+static	double	gaulew4[gaulew4175,5973
+static	double	gaulep8[gaulep8176,6031
+static	double	gaulew8[gaulew8178,6121
+static	double	gaulep10[gaulep10180,6211
+static	double	gaulew10[gaulew10183,6321
+static	double	gaulep12[gaulep12186,6430
+static	double	gaulew12[gaulew12189,6553
+static	double	gaulep16[gaulep16192,6676
+static	double	gaulew16[gaulew16197,6867
+static	double	gaulep20[gaulep20202,7058
+static	double	gaulew20[gaulew20208,7289
+static	double	gaulep48[gaulep48214,7520
+static	double	gaulew48[gaulew48227,8175
+double	gauss(251,9032
+void	gausspts(292,10202
+double	gaussn(332,11337
+double	gala(373,12625
+double	gahe(409,13713
+double	gauche(448,14890
+double	gaussp(512,16767
+double	galap(521,16911
+double	gahep(531,17074
+double	gaussnbyn(551,17586
+
+reso.c,13
+main(26,909
+
+tools.c,68
+double	lin_int(13,251
+int    poweri(29,522
+void    convei(45,695
+
+int.h,0
+
+functions.h,0
+
+decay.h,0

@@ -1,0 +1,35 @@
+0           !IEOS         set type for EOS (EOSI:0  EOSQ: 1, SM-EOSQ: 2, EOSL: 3(Katz05 data) ) 
+7.0         !b            fm impact parameter (unit: fm)
+0.60        !T0           initial time (unit: fm/c)
+30          !EK           initial energy density e0(b=0, r=0) (unit: GeV/fm^3)
+0.120       !Edec         Decoupling energy density (unit: GeV/fm^3),edec=0.0887 for SM-EOSQ, 0.0366854 for EOSI
+0           !IEOS2dec     only for IEOS=2 (EOSI)  0: decouple by gluon 1: decouple by pions   
+*
+*
+0           !IGlauberCGC  initializion by Glauber or CGC  (0: Glauber, 1:CGC)      
+0           !Iein         type of initialization  0:initialize by energy density 1: initialize by entropy density  
+0.90        !HWN          % of WN   (1-HWN) % of BC        
+197.0       !A            mass of atom
+4.0         !Si0          cross section for NN (unit: fm^2) 40mb, sqrt(SNN)=130GeV
+0.17        !TRo0         nuclear density  (unit: fm^-3)
+0.54        !TEta         diffussion parameter of nuclear radii  (unit: fm)
+6.37        !TRA          nuclear radii (unit: fm)
+3.0         !eta_flat     half width of the rapidity platform in the central rapidity
+0.3         !Gaussion width at large rapidity exp(-(abs(eta)-eta_flat)**2.0/(2.0*Gw**2.0))
+*
+*
+0.00        !ViscousC     eta/s (const.) (0: no shear viscosity)
+0.0         !VisBeta      \tau_Pi=VisBeta*6.0\eta /(ST)
+0.0         !VisBulk      VisBulk=C;  Xi/s= C* (Xi/S)_min  (C=0, no bulk vis; or C>1 ) 
+0           !IRelaxBulk   type of bulk relaxation time (0: critical slowing down; 1: contant relaxation time; 2: 1.5/(2 Pi T))
+0.0         !BulkTau      constant relaxation time (fm/c) (require input IRelaxBulk=1)  
+*
+*
+2           !NXD
+2           !NYD          freeze-out step in x and y dirction 
+2           !NZD          
+5           !NTD          freeze-out step in \tau dirction 
+0.04        !dt
+0.2         !dx
+0.2         !dy
+0.2         !deta

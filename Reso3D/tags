@@ -1,0 +1,148 @@
+ALPHA	reso.h	12
+Edndp3	functions.c	/^double	Edndp3(yr, ptr, phirin, res_num)$/
+Edndp3_2bodyN	decay.c	/^Edndp3_2bodyN (y, pt, phi, m1, m2, mr, res_num)$/
+Edndp3_3bodyN	decay.c	/^Edndp3_3bodyN (double y, double pt, double phi, do/
+FILEDIM	reso.h	15
+HBARC	reso.h	13
+HBARC3	reso.h	14
+MAXINTV	reso.h	6
+MHALF	reso.h	7
+Mint	int.c	/^main() {$/
+Mreso	reso.c	/^main() {$/
+NPHI	reso.h	9
+NPHI1	reso.h	10
+NPT	reso.h	8
+NUMDECAY	reso.h	4
+NUMPARTICLE	reso.h	5
+PHI	reso.h	41
+PI	reso.h	11
+PTCHANGE	functions.c	17
+PTN1	decay.c	19
+PTN2	decay.c	20
+PTS3	decay.c	16
+PTS4	decay.c	17
+SSL	tools.h	4
+a	decay.c	36
+add_reso	decay.c	/^void add_reso (pn, pnR, k, j)$/
+b	decay.c	36
+baryon	reso.h	24
+bottom	reso.h	27
+branch	reso.h	47
+c	decay.c	36
+cal_reso_decays	decay.c	/^void cal_reso_decays (maxpart, maxdecay, bound)$/
+charge	reso.h	29
+charm	reso.h	26
+convei	tools.c	/^void    convei(zahl,p)$/
+costh	decay.c	28
+d	decay.c	36
+dNdptdphi	reso.h	35
+de	reso.h	44
+decay	reso.h	49
+decays	reso.h	30
+dn2ptN	decay.c	/^double dn2ptN (w2, para1)$/
+dn3ptN	decay.c	/^dn3ptN (x, para1) \/\/The integration kernal for "W"/
+dnpir1N	decay.c	/^double dnpir1N (costh, para1)	       $/
+dnpir2N	decay.c	/^double dnpir2N (double phi, void *para1)    $/
+e	decay.c	24
+e0	decay.c	29
+gahe	int.c	/^double	gahe( n, f, center, width, optvec )$/
+gahep	int.c	/^double	gahep( n, f, center, width, para )$/
+gahep16	int.c	147
+gahep20	int.c	155
+gahep4	int.c	141
+gahep8	int.c	143
+gahew16	int.c	151
+gahew20	int.c	160
+gahew4	int.c	142
+gahew8	int.c	145
+gala	int.c	/^double	gala( n, f, xlo, invslope, optvec )$/
+gala12w	int.c	109
+gala12x	functions.c	70
+gala12x	int.c	102
+gala15w	int.c	126
+gala15x	functions.c	78
+gala15x	int.c	117
+gala48x	functions.c	88
+gala4w	int.c	89
+gala4x	functions.c	61
+gala4x	int.c	86
+gala8w	int.c	97
+gala8x	functions.c	65
+gala8x	int.c	92
+galap	int.c	/^double	galap( n, f, xlo, invslope, para )$/
+gauche	int.c	/^double	gauche( n, f, base, pole, optvec )$/
+gaulep10	int.c	180
+gaulep12	int.c	186
+gaulep16	int.c	192
+gaulep20	int.c	202
+gaulep4	int.c	174
+gaulep48	int.c	214
+gaulep8	int.c	176
+gaulew10	int.c	183
+gaulew12	int.c	189
+gaulew16	int.c	197
+gaulew20	int.c	208
+gaulew4	int.c	175
+gaulew48	int.c	227
+gaulew8	int.c	178
+gaus10x	functions.c	29
+gaus12x	functions.c	32
+gaus16x	functions.c	35
+gaus20x	functions.c	40
+gaus2x	functions.c	25
+gaus48x	functions.c	46
+gaus4x	functions.c	26
+gaus8x	functions.c	27
+gauss	int.c	/^double	gauss( n, f, xlo, xhi, optvec )$/
+gaussn	int.c	/^double	gaussn( n, ndiv, f, xlo, xhi, optvec )$/
+gaussnbyn	int.c	/^double	gaussnbyn( n, f, xlo, xhi, ylo, yhi )$/
+gaussp	int.c	/^double	gaussp( n, f, xlo, xhi, para )$/
+gausspts	int.c	/^void	gausspts( n, xlo, xhi, xvec, wvec )$/
+gisospin	reso.h	28
+gspin	reso.h	23
+lin_int	tools.c	/^double	lin_int(x1,x2,f1,f2,x)$/
+m1	decay.c	26
+m2	decay.c	26
+m3	decay.c	26
+mass	reso.h	21
+matherr	int.c	/^int	matherr() {		\/* for debugging *\/$/
+monval	reso.h	19
+mr	decay.c	27
+mt	reso.h	36
+mt	decay.c	24
+name	reso.h	20
+nblock	decay.c	34
+nblock	decay.c	37
+norm3int	decay.c	/^norm3int (double x, void *paranorm)$/
+nphi	reso.h	34
+npt	reso.h	33
+numpart	reso.h	46
+p0	decay.c	29
+par	reso.h	18
+part	reso.h	48
+particle	reso.h	39
+partid	reso.h	53
+pblockN	decay.c	22
+pblockN	decay.c	31
+phi	decay.c	25
+pl	decay.c	24
+poweri	tools.c	/^int    poweri(xx,l)$/
+pt	reso.h	37
+pt	decay.c	24
+readin	functions.c	/^void   readin(filename, particlemax, decaymax)$/
+readspec	functions.c	/^void   readspec(infile, specfile, particlemax, dec/
+res_num	decay.c	30
+reso	reso.h	45
+sinth	decay.c	28
+slope	reso.h	38
+stable	reso.h	31
+strange	reso.h	25
+testfunc	int.c	/^double testfunc( x )$/
+testgahe	int.c	/^testgahe() {$/
+testgala	int.c	/^testgala() {$/
+testgalafunc	int.c	/^double	testgalafunc( x )$/
+testgauche	int.c	/^testgauche() {$/
+testgauss	int.c	/^testgauss() {$/
+width	reso.h	22
+writespec	functions.c	/^void   writespec(particlemax, outdir)$/
+y	decay.c	24

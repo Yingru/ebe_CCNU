@@ -1,0 +1,4 @@
+../results/numbers.dat                  !particle_info
+../results/phipspectra.dat              !not_used_in_current_version
+../results                              !out_put_dir
+211                                     !bound

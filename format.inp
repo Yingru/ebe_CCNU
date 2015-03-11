@@ -1,0 +1,8 @@
+12.0000               ! invslope
+41                    ! NETA, NRY
+15                    ! NPT  
+48                    ! NPHI
+-8.0                  ! ry_lo
+8.0                   ! rh_hi
+-6.0                  ! eta_lo
+6.0                   ! eta_hi
